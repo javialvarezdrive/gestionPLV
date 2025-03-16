@@ -6,7 +6,7 @@ from src.views import actividades_view, cursos_view, agentes_view
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Gestión de Cursos y Actividades - Policía Local de Vigo",
+    page_title="Gestión de Cursos y Actividades",
     page_icon="👮",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -24,7 +24,7 @@ database.update_database_structure(conn)
 conn.close()
 
 # Título principal
-st.title("👮 Gestión de Cursos y Actividades - Policía Local de Vigo")
+st.title("👮 Gestión de Cursos y Actividades")
 
 # Menú de navegación en la barra lateral
 st.sidebar.title("Navegación")

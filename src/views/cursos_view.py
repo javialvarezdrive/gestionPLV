@@ -9,6 +9,9 @@ def cursos_page():
         # Limpiar el mensaje después de mostrarlo
         del st.session_state.curso_success_message
     
+    # Título de la página
+    st.header("Cursos")
+    
     # Crear dos columnas
     col1, col2 = st.columns([2, 1])
     

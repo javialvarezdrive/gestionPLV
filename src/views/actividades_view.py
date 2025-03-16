@@ -5,7 +5,9 @@ from datetime import datetime, timedelta
 
 def actividades_page():
     """Página para gestionar actividades."""
-    st.title("Gestión de Actividades")
+    
+    # Título de la página
+    st.header("Actividades")
     
     # Inicializar variables de estado si no existen
     if 'confirmar_eliminacion' not in st.session_state:

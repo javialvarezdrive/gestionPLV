@@ -3,6 +3,9 @@ import pandas as pd
 from src.database import database
 
 def agentes_page():
+    # Título de la página
+    st.header("Agentes")
+    
     # Crear pestañas
     tab1, tab2, tab3 = st.tabs(["Ver Agentes", "Añadir Agente", "Editar Agente"])
     
