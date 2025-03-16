@@ -1,5 +1,5 @@
 streamlit==1.22.0
 pandas==1.5.3
-numpy==1.24.3
+numpy==1.24.3  # Añadido para asegurar compatibilidad con pandas
 matplotlib==3.7.1
-gunicorn==20.1.0
+gunicorn==20.1.0  # Añadido para Render
